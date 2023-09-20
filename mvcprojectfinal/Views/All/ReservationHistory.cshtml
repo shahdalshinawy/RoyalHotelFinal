@@ -1,0 +1,73 @@
+﻿@model List<RoomVisits>
+@{
+    ViewData["Title"] = "ReservationHistory";
+}
+<div style="background-image:url(/image/Cac.jpg);height:400px;background-size:cover;background-repeat:no-repeat">
+
+</div>
+<div style="margin-bottom:20px">
+    @if (Model != null)
+    {
+        if (Model.Count() == 0)
+        {
+            <h1 style="color:black">You Are Not Reserve Any Rooms</h1>
+        }
+        else
+        {
+
+            <h1 style="color:black">Please Note</h1>
+            <ul style="color:black">
+                <li>You can apply to cancel the reservation if there are no more than two days since your reservation</li>
+                <li>If you cancel your reservation, your money will be on the visa within two days</li>
+            </ul>
+
+
+            <table class="table" style="background-color:#c79e70;margin:auto;color:black;width:800px;padding:5px;border:3px dashed #342b1f;font-size:21px">
+                <thead>
+                    <tr>
+                        <th scope="col">HotelName</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">View</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Registeration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var items in Model)
+                    {
+
+                        <tr>
+                            <td>@items.Room.hotels.name</td>
+                            <td>@items.Room.Type</td>
+                            <td>@items.Room.View</td>
+                            <td>@items.Room.price</td>
+                            <td style="color:black">
+                                @if (((DateTime)ViewBag.datenow).Day - items.ReservationDate.Day > 2)
+                                {
+                                    <h1>your reservation id off</h1>
+
+                                    <a href="/" onclick="return false;">CancleReservation</a>
+                                }
+                                else
+                                {
+                                    @Html.ActionLink("CancleResevation","CancleResevation","All",new { userid = @items.booking.AppliacationUserID,roomid=@items.RoomID},
+                                    new { onclick = "return confirm('Are sure wants to Cancel?');"})
+                  
+                                }
+
+
+                            </td>
+
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        }
+    }
+
+</div>
+<button style="background-color:#342b1f;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid #342b1f;color:white">
+    <a href="/Home/index" style="color:white;font-size:20px">Back</a>
+</button>

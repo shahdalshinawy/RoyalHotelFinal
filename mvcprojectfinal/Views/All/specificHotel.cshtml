@@ -1,0 +1,530 @@
+﻿@model mvcprojectfinal.VM.BookingALLVM
+@using Microsoft.AspNetCore.Identity
+@using mvcprojectfinal.Models
+@inject SignInManager<AppliacationUser> SignInManger
+@inject UserManager<AppliacationUser> UserInManger
+@{
+    AppliacationUser user = await UserInManger.GetUserAsync(User);
+}
+
+@{
+    ViewData["Title"] = "specificHotel";
+}
+<script src="https://kit.fontawesome.com/08c1ffcbed.js" crossorigin="anonymous"></script>
+
+@*    <div style="margin-left:60px">
+        <h1 style="color:black;font-size:4rem;">@ViewBag.hotells.name</h1>
+        <h3>@@ViewBag.hotells.Location</h3>
+    </div>
+    <br />
+    <div style="text-align:center">
+        <h3>Hotel Images</h3>
+        @foreach (var imgs in @ViewBag.hotells.images)
+        {
+
+            <img src="/image/@imgs.source" width="300" height="300" style="padding:5px;box-shadow: 5px 5px 5px #888888;margin-right:20px" />
+
+        }
+    </div>
+    <br />
+    <h2 style="color:black;margin-left:60px">Description</h2>
+    <h3>@ViewBag.hotells.Description</h3>
+    <br />
+    <h2>Most popular facilities</h2>
+    <div class="container-fluid">
+        @if (ViewBag.hotells.Fun.IsHavingElevator == true)
+        {
+            <h3 style="display:block;margin-right:20px">HavingElevator</h3>
+        }
+
+
+        @if (ViewBag.hotells.Fun.IsContaintsSwimmingPool == true)
+        {
+            <div style="margin-left:20px;margin-right:60px;display:inline">
+                <i class="fa-solid fa-person-swimming fa-3x" style="color:lightgreen;float:left"></i>
+                <h3 style="display:block;margin-right:30px;float:left">SwimmingPool</h3>
+                <div style="clear:both;display:inline"></div>
+            </div>
+
+        }
+
+        <div style="margin-left:20px;margin-right:60px;display:inline">
+            @if (ViewBag.hotells.Fun.IsContainsDesco == true)
+            {
+
+                <i class="fa-regular fa-champagne-glass fa-3x" style="color:lightgreen;float:left"></i>
+                <h3 style="display:block;margin-right:20px;float:left">Desco</h3>
+                <div style="clear:both;display:inline"></div>
+
+            }
+        </div>
+        <div style="margin-left:20px;margin-right:60px;display:inline">
+            @if (ViewBag.hotells.Fun.IsHavingKidsArea == true)
+            {
+
+                <i class="fa-regular fa-children fa-3x" style="color:lightgreen;float:left"></i>
+                <h3 style="display:block;margin-right:30px;float:left">KidsArea</h3>
+                <div style="clear:both;display:inline"></div>
+
+            }
+        </div>
+
+        <div style="margin-left:20px;margin-right:60px;display:inline">
+            @if (ViewBag.hotells.Fun.IsContainsBeach == true)
+            {
+
+                <i class="fa-solid fa-umbrella-beach fa-3x" style="color:lightgreen;float:left"></i>
+                <h3 style="display:block;margin-right:30px;float:left">Beach</h3>
+                <div style="clear:both;display:inline"></div>
+
+            }
+        </div>
+    </div>
+    <div>
+       
+      
+        <section>
+            <form id="BookingID">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+
+                        <th scope="col">Type</th>
+                        <th scope="col">View</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Registeration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var items in ViewBag.hotells.Rooms)
+                    {
+
+                        <tr>
+
+                            <td>@items.Type</td>
+                            <td>@items.View</td>
+                            <td>@items.price</td>
+                            <td>
+                                <input type="button" id="Reserve'@items.ID'" class="btn btn-default " value="Reserve" onclick="func(@items.ID)" />
+                                <input type="button" style="visibility:hidden" id="cancle'@items.ID'" class="btn btn-default " value="Cancle" onclick="cancel(@items.ID)" />
+                               
+                            </td>
+                            
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+                <div class="form-group">
+                    <label asp-for="SSN" class="control-label"></label>
+                <input asp-for="SSN" id="SSN" class="form-control" style="width:200px;" />
+                    <span asp-validation-for="SSN" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Visa" class="control-label"></label>
+                <input  asp-for="Visa" id="visa" class="form-control" style="width:200px;" />
+                    <span asp-validation-for="Visa" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="check_in" class="control-label"></label>
+                    <input asp-for="check_in" id="checkin" class="form-control" style="width:200px;" type="date" />
+                    <span asp-validation-for="check_in" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="check_out" class="control-label"></label>
+                <input asp-for="check_out" id="checkout" class="form-control" style="width:200px;" />
+                    <span asp-validation-for="check_out" class="text-danger"></span>
+                </div>
+                @if (User.Identity.IsAuthenticated)
+                {
+                <input type="hidden"  value="@user.Id" asp-for="ApplicationUserID" id="userid" />
+                <input type="button" value="Final" onclick="Final()" />
+                }
+                
+                else
+                {
+                    <div>You must register in the website</div>
+                }
+
+            </form>
+        </section>
+    </div>
+        
+*@
+
+<!-- Custom stlylesheet -->
+<link rel="stylesheet" href="/css/stylebo.css" />
+<body style="background-image:url(/image/room.jpg);margin:100px 50px 0px 50px">
+    <div class="row">
+        <div class="col-12">
+            <div class="card-body" style="background-color:white;border-radius:25px">
+                <h2 class="Desc" style="color:rgba(153, 131, 157, 1);font-style:italic;text-align:center">
+                    @ViewBag.hotells.name
+                </h2>
+                <div style="text-align:center">
+                    @foreach (var imgs in @ViewBag.hotells.images)
+                    {
+
+                        <img src="/image/@imgs.source" width="300" height="300" style="padding:5px;box-shadow: 5px 5px 5px #888888;margin-right:20px;align-content:center" />
+
+                    }
+                </div>
+                <h2 class="Desc" style="color:rgba(153, 131, 157, 1);font-style:italic;">
+                    Location :
+                    <p style="display:inline;font-size:20px ;font-style:normal;color:black;">@ViewBag.hotells.Location</p>
+                </h2>
+                <h2 class="Desc" style="color:rgba(153, 131, 157, 1);font-style:italic;">
+                    Description :
+                    <p style="display:inline;font-size:20px ;font-style:normal;color:black;">@ViewBag.hotells.Description</p>
+                </h2>
+                <h2 class="Desc" style="color:rgba(153, 131, 157, 1);font-style:italic;">
+                    Entertainment :
+                    <br />
+                    <br />
+                    <ul style="font-size:20px;color:black;list-style:none;display:inline-block">
+                        @if (ViewBag.hotells.Fun.IsHavingElevator == true)
+                        {
+                            <li >
+                                <i class="fa-solid fa-elevator" style="color:rgba(153, 131, 157, 1);font-size:25px"></i>
+                                Elevator
+                            </li>
+      
+                        }
+                        @if (ViewBag.hotells.Fun.IsContaintsSwimmingPool == true)
+                        {
+                            <li >
+                                <i class="fa-solid fa-person-swimming" style="color:rgba(153, 131, 157, 1);font-size:25px"></i>
+                                Swimming Pool
+                            </li>
+                        }
+                        @if (ViewBag.hotells.Fun.IsContainsDesco == true)
+                        {
+                            <li >
+                                <i class="fa-solid fa-champagne-glasses" style="color:rgba(153, 131, 157, 1);font-size:25px"></i>
+                                Desco
+                            </li>
+                        }
+                        @if (ViewBag.hotells.Fun.IsHavingKidsArea == true)
+                        {
+                            <li>
+                                <i class="fa-solid fa-children" style="color:rgba(153, 131, 157, 1);font-size:25px"></i>
+                                Kids Area
+                            </li>
+                        }
+                        @if (ViewBag.hotells.Fun.IsContainsBeach == true)
+                        {
+                            <li>
+                                <i class="fa-solid fa-umbrella-beach" style="color:rgba(153, 131, 157, 1);font-size:25px"></i>
+                                Beach
+                            </li>
+                        }
+                        @if (ViewBag.hotells.Fun.IsOpenBuffit == true)
+                        {
+                            <li>
+                                <i class="fa fa-concierge-bell" style="color:rgba(153, 131, 157, 1);font-size:25px"></i>
+
+                                Open Buffit
+                            </li>
+                        }
+                        @if (ViewBag.hotells.Fun.IsContainsAquaBark == true)
+                        {
+                            <li>
+                                <i class="fa-solid fa-ranking-star" style="color:rgba(153, 131, 157, 1);font-size:25px"></i>
+                                Aqua Park
+                            </li>
+                        }
+                    </ul>
+                </h2>
+
+            </div>
+
+            <section style="margin-top:20px;background-color:transparent">
+                <form id="BookingID">
+
+@*                    <table class="table table-dark" >
+                        <thead>
+                            <tr>
+
+                                <th scope="col">Type</th>
+                                <th scope="col">View</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Registeration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var items in ViewBag.hotells.Rooms)
+                            {
+
+                                <tr>
+
+                                    <td>@items.Type</td>
+                                    <td>@items.View</td>
+                                    <td>@items.price</td>
+                                    <td>
+                                        <input type="button" id="Reserve'@items.ID'" class="btn btn-default " value="Reserve" onclick="func(@items.ID)" />
+                                        <input type="button" style="visibility:hidden" id="cancle'@items.ID'" class="btn btn-default " value="Cancle" onclick="cancel(@items.ID)" />
+
+                                    </td>
+
+                                </tr>
+                            }
+
+
+                        </tbody>
+                    </table>*@
+                    <div class="panel-body table-responsive">
+                        <table class="table" style="background-color:rgba(153, 131, 157, 1);color:white;font-size:18px">
+                        <thead>
+                            <tr>
+                                <th scope="col">Type</th>
+                                <th scope="col">View</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Registeration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var items in ViewBag.hotells.Rooms)
+                            {
+
+                                <tr>
+
+                                    <td>@items.Type</td>
+                                    <td>@items.View</td>
+                                    <td>@items.price</td>
+                                    <td>
+                                            <input type="button" id="Reserve'@items.ID'" class="btn btn-default " value="Reserve" onclick="func(@items.ID)" style="background-color:black;cursor:pointer;width:150px;height:50px;border:3px dotted rgba(153, 131, 157, 1);font-size:22px;border-radius:25px;color:white" />
+                                            <input type="button" id="cancle'@items.ID'" class="btn btn-default " value="Cancle" onclick="cancel(@items.ID)" style="visibility:hidden;background-color:white;cursor:pointer;width:150px;height:50px;border:3px dotted rgba(153, 131, 157, 1);font-size:22px;border-radius:25px;" />
+
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    </div>
+@*       
+                            <div class="form-group ReservationInfo" style="visibility:hidden">
+                                <label asp-for="SSN" class="control-label"></label>
+                                <input asp-for="SSN" id="SSN" class="form-control" style="width:200px;" />
+                                <span asp-validation-for="SSN" class="text-danger"></span>
+                            </div>
+                            <div class="form-group ReservationInfo" style="visibility:hidden">
+                                <label asp-for="Visa" class="control-label"></label>
+                                <input asp-for="Visa" id="visa" class="form-control" style="width:200px;" />
+                                <span asp-validation-for="Visa" class="text-danger"></span>
+                            </div>
+                            <div class="form-group ReservationInfo" style="visibility:hidden">
+                                <label asp-for="check_in" class="control-label"></label>
+                                <input asp-for="check_in" id="checkin" class="form-control" style="width:200px;" type="date" />
+                                <span asp-validation-for="check_in" class="text-danger"></span>
+                            </div>
+                            <div class="form-group ReservationInfo" style="visibility:hidden">
+                                <label asp-for="check_out" class="control-label"></label>
+                                <input asp-for="check_out" id="checkout" class="form-control" style="width:200px;" />
+                                <span asp-validation-for="check_out" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>‏*@
+
+                   <div id="booking" class="section">
+                        <div class="section-center">
+                            <div class="container">
+                                <div class="row">
+                                    @*                                      <div class="col-md-7 col-md-push-5">
+                                    <div class="booking-cta">
+                                    <h1>Make your reservation</h1>
+                                    <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
+                                    ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
+                                    Perspiciatis.
+                                    </p>
+                                    </div>
+                                    </div>*@
+                                    <div class="col-md-5 col-md-pull-5">
+                                        <div class="booking-form" style="background-color:rgba(153, 131, 157, 1);color:black">
+                                            <form>
+                                                <div class="form-group ReservationInfo">
+                                                    <label asp-for="SSN" class="control-label"></label>
+                                                    <input asp-for="SSN" id="SSN" class="form-control" style="width:200px;" />
+                                                    <span asp-validation-for="SSN" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group ReservationInfo" >
+                                                    <label asp-for="Visa" class="control-label"></label>
+                                                    <input asp-for="Visa" id="visa" class="form-control" style="width:200px;" />
+                                                    <span asp-validation-for="Visa" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group ReservationInfo" style="display:inline-block">
+                                                    <label asp-for="check_in" class="control-label"></label>
+                                                    <input asp-for="check_in" id="checkin" class="form-control" style="width:200px;" type="date" />
+                                                    <span asp-validation-for="check_in" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group ReservationInfo" style="display:inline-block">
+                                                    <label asp-for="check_out" class="control-label"></label>
+                                                    <input asp-for="check_out" id="checkout" class="form-control" style="width:200px;" />
+                                                    <span asp-validation-for="check_out" class="text-danger"></span>
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <input type="hidden" value="@user.Id" asp-for="ApplicationUserID" id="userid" />
+@*                        <input type="button" value="Final" onclick="Final()" style="background-color:rgba(153, 131, 157, 1);cursor:pointer;border:2px solid rgba(159, 139, 170, 1)" />
+*@
+                        <div class="form-btn" style="margin:15px 40px">
+                            <input type="button" value="Sure Reserve ? " onclick="Final()" style="background-color:black;cursor:pointer;width:200px;height:60px;border:3px dotted rgba(153, 131, 157, 1);margin-bottom:50px;font-size:22px;border-radius:25px;color:white" />
+                        </div>
+                    }
+
+                    else
+                    {
+                        <div>You must register in the website</div>
+                    }
+                </form>
+            </section>
+            <br />
+
+            <label style="color:rgba(153, 131, 157, 1);font-size:22px;font-weight:bold">
+                UserName :
+            </label>
+            <input type="text" class="form form-control" id="Name" name="Name" />
+            <br />
+            <label style="color:rgba(153, 131, 157, 1);font-size:22px;font-weight:bold">
+                FeedBack :
+            </label>           
+            <textarea id="cmnt" name="cmnt" class="form form-control"></textarea>
+            <br />
+            <br />
+
+            <input type="button" value="Comment" onclick="SendComment()" style="background-color:black;cursor:pointer;width:200px;height:60px;border:3px dotted rgba(153, 131, 157, 1);margin-bottom:50px;font-size:22px;border-radius:25px;color:white"/>
+            @*<input type="button" value="Connect" class="btn btn-info" onclick="Connect()" />*@
+            <ul id="AllCmnt" style="background-color:white">
+                @foreach (var comment in ViewBag.hotells.feedBacks)
+                {
+                    <li style="color:black;font-size:22px;font-weight:bold">
+                        @comment.name : @comment.comment;
+                    </li>
+                    <br />
+                }
+            </ul>
+            <button style="background-color:black;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid white;color:white">
+                <a href="/Hotel/index" style="color:white;font-size:20px">Back</a>
+            </button>
+        </div>
+</body>
+<!-- Client HTML Browser call SignalR Hub RPC js -->
+
+
+
+
+
+
+@section Scripts{
+    <script src="/lib/microsoft-signalr/signalr.min.js"></script>
+
+    <script>      
+        function func(roomid) {
+             console.log("Reserve\'\'" + roomid)
+            const rooms = document.createElement("input");
+            rooms.name = "roomsThatReserved";
+            rooms.id = roomid;
+            rooms.value = roomid;
+            rooms.type = "hidden";
+            rooms.className = "RoomsReserves";
+            console.log(rooms);
+            var form = document.getElementById("BookingID");
+           
+           
+            form.appendChild(rooms);
+            document.getElementById("Reserve\'" + roomid + "\'").style.visibility = "hidden";
+             document.getElementById("cancle\'"+roomid+"\'").style.visibility = "visible";
+        }
+        function cancel(roomid){
+            var form = document.getElementById("BookingID");
+            var room = document.getElementById(roomid);
+            form.removeChild(room);
+            document.getElementById("Reserve\'" + roomid + "\'").style.visibility = "visible";
+          
+
+            document.getElementById("cancle\'" + roomid + "\'").style.visibility = "hidden";
+           
+            
+
+        }
+        function Final() {
+            console.log($("#checkin").val() )
+            if ($("#SSN").val() && $("#visa").val() && $("#checkin").val() && $("#checkout").val() && document.querySelector('#BookingID .RoomsReserves') !== null) {
+                 
+                var dataview = $("#BookingID").serializeArray();
+
+                console.log(dataview);
+
+
+                $.ajax({
+
+                    url: "/All/NewReservation",
+                    type: "POST",
+                    data: dataview,
+                    //contentType: "application/json; charset=utf-8",
+                    //dataType: "json",
+                    success: function (data) {
+                        //alert("View Model Passed Successfully");
+                        window.location.href = '@Url.Action("Thankyou","All")'
+
+                    },
+                    error: function (xhr) {
+                        alert('No Valid Data');
+                    }
+                });
+            }
+            else if(document.querySelector('#BookingID .RoomsReserves') == null){
+                alert("Please Reserve First !");
+            }
+           
+          
+            else
+            {
+                alert("please enter all date")
+            }
+        }
+
+            //1-declare hub "URL"
+            var hub = new signalR.HubConnectionBuilder().withUrl("/FeedbackHub").build();
+            //2-start connect as online client
+            hub.start().then(function () {
+                console.log("Connect Success");
+            });
+            //3-server fire event  notification ==>handel
+            hub.on("NewMessageNotify", function (name, cmnt, id) {
+                if (id == @ViewBag.hotells.id) {
+
+                    $("#AllCmnt").append("<li>" + name + ":" + cmnt + "</li>");
+                }
+
+            });
+            //4-send data server
+            function SendComment() {
+                let name = $("#Name").val();
+                let cmnt = $("#cmnt").val();
+                let prodID = @ViewBag.hotells.id;
+                console.log(name + ":" + cmnt);
+                //call RPC from hub
+                hub.invoke("NewMessage", name, cmnt, prodID);
+            }
+    </script>
+ }
+
+
+
+
+
+

@@ -1,0 +1,1593 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\mvcprojectfinal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\mvcprojectfinal.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\about.html",
+      "PackagePath": "staticwebassets\\about.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\accomodation.html",
+      "PackagePath": "staticwebassets\\accomodation.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\assets\\img\\avataaars.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\avataaars.svg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\assets\\img\\portfolio\\cabin.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\cabin.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\assets\\img\\portfolio\\cake.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\cake.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\assets\\img\\portfolio\\circus.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\circus.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\assets\\img\\portfolio\\game.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\game.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\assets\\img\\portfolio\\safe.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\safe.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\assets\\img\\portfolio\\submarine.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\submarine.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\blog-single.html",
+      "PackagePath": "staticwebassets\\blog-single.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\blog.html",
+      "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\contact_process.php",
+      "PackagePath": "staticwebassets\\contact_process.php"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\Demo.css",
+      "PackagePath": "staticwebassets\\css\\Demo.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\NewH.css",
+      "PackagePath": "staticwebassets\\css\\NewH.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\_elements.css",
+      "PackagePath": "staticwebassets\\css\\_elements.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\_footer.css",
+      "PackagePath": "staticwebassets\\css\\_footer.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\_testimonial.css",
+      "PackagePath": "staticwebassets\\css\\_testimonial.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\_variables.css",
+      "PackagePath": "staticwebassets\\css\\_variables.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\bootstrapbo.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrapbo.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\bootstrapf.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrapf.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\bootstrapl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrapl.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\bootstraps.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstraps.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\bootstrapw.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrapw.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\filter.css",
+      "PackagePath": "staticwebassets\\css\\filter.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\ioniconsf.min.css",
+      "PackagePath": "staticwebassets\\css\\ioniconsf.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\style (Mohammad Rocky's conflicted copy 2018-05-08).css",
+      "PackagePath": "staticwebassets\\css\\style (Mohammad Rocky's conflicted copy 2018-05-08).css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\style.css (Mohammad Rocky's conflicted copy 2018-05-08).map",
+      "PackagePath": "staticwebassets\\css\\style.css (Mohammad Rocky's conflicted copy 2018-05-08).map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\styleR.css",
+      "PackagePath": "staticwebassets\\css\\styleR.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\styleR.css.map",
+      "PackagePath": "staticwebassets\\css\\styleR.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\styleR.scss",
+      "PackagePath": "staticwebassets\\css\\styleR.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\stylebo.css",
+      "PackagePath": "staticwebassets\\css\\stylebo.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\stylef.css",
+      "PackagePath": "staticwebassets\\css\\stylef.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\stylel.css",
+      "PackagePath": "staticwebassets\\css\\stylel.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\stylel.scss",
+      "PackagePath": "staticwebassets\\css\\stylel.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\styles.scss",
+      "PackagePath": "staticwebassets\\css\\styles.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\stylew.css",
+      "PackagePath": "staticwebassets\\css\\stylew.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\stylew.scss",
+      "PackagePath": "staticwebassets\\css\\stylew.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\table.css",
+      "PackagePath": "staticwebassets\\css\\table.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\tableHo.css",
+      "PackagePath": "staticwebassets\\css\\tableHo.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\css\\tableboot.css",
+      "PackagePath": "staticwebassets\\css\\tableboot.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\elements.html",
+      "PackagePath": "staticwebassets\\elements.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\gallery.html",
+      "PackagePath": "staticwebassets\\gallery.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Bar.jpg",
+      "PackagePath": "staticwebassets\\image\\Bar.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Bellagio.jpg",
+      "PackagePath": "staticwebassets\\image\\Bellagio.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Ca.jpg",
+      "PackagePath": "staticwebassets\\image\\Ca.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Cac.jpg",
+      "PackagePath": "staticwebassets\\image\\Cac.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Elite suites.jpg",
+      "PackagePath": "staticwebassets\\image\\Elite suites.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Giza.png",
+      "PackagePath": "staticwebassets\\image\\Giza.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Gouna.png",
+      "PackagePath": "staticwebassets\\image\\Gouna.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Logo.png",
+      "PackagePath": "staticwebassets\\image\\Logo.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\Stock.jpg",
+      "PackagePath": "staticwebassets\\image\\Stock.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\about_banner.jpg",
+      "PackagePath": "staticwebassets\\image\\about_banner.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\about_bg.jpg",
+      "PackagePath": "staticwebassets\\image\\about_bg.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\alex.jpg",
+      "PackagePath": "staticwebassets\\image\\alex.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\aswan.jpg",
+      "PackagePath": "staticwebassets\\image\\aswan.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\back.jpg",
+      "PackagePath": "staticwebassets\\image\\back.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\background.jpg",
+      "PackagePath": "staticwebassets\\image\\background.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\image\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\banner\\banner-2_tmp18321",
+      "PackagePath": "staticwebassets\\image\\banner"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\banner_bg.jpg",
+      "PackagePath": "staticwebassets\\image\\banner_bg.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\bg.jpg",
+      "PackagePath": "staticwebassets\\image\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\add.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\add.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\author.png",
+      "PackagePath": "staticwebassets\\image\\blog\\author.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\c1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\c1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\c2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\c2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\c3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\c3.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\c4.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\c4.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\c5.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\c5.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\c6.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\c6.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\cat-post\\cat-post-1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\cat-post\\cat-post-1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\cat-post\\cat-post-2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\cat-post\\cat-post-2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\cat-post\\cat-post-3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\cat-post\\cat-post-3.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\feature-img1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\feature-img1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\main-blog\\m-blog-1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\main-blog\\m-blog-1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\main-blog\\m-blog-2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\main-blog\\m-blog-2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\main-blog\\m-blog-3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\main-blog\\m-blog-3.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\main-blog\\m-blog-4.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\main-blog\\m-blog-4.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\main-blog\\m-blog-5.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\main-blog\\m-blog-5.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\next.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\next.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\post-img1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\post-img1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\post-img2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\post-img2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\post1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\post1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\post2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\post2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\post3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\post3.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\post4.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\post4.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\prev.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\prev.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\blog\\s-img.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\s-img.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\bo.jpg",
+      "PackagePath": "staticwebassets\\image\\bo.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\booking.png",
+      "PackagePath": "staticwebassets\\image\\booking.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\d1.png",
+      "PackagePath": "staticwebassets\\image\\d1.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\dahab.jpg",
+      "PackagePath": "staticwebassets\\image\\dahab.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\ein.jpg",
+      "PackagePath": "staticwebassets\\image\\ein.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\_DS_Store",
+      "PackagePath": "staticwebassets\\image\\elements"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\a.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\a.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\a2.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\a2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\d.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\image\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\image\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\f1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\f2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\f3.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\f4.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\f5.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\f6.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\f7.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\f8.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\g1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\g2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\g3.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\g4.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\g5.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\g6.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\g7.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\image\\elements\\g8.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\image\\elements\\primary-check.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\image\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\image\\elements\\success-check.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\image\\elements\\success-radio.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\user1.png",
+      "PackagePath": "staticwebassets\\image\\elements\\user1.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\elements\\user2.png",
+      "PackagePath": "staticwebassets\\image\\elements\\user2.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\facilites_bg.jpg",
+      "PackagePath": "staticwebassets\\image\\facilites_bg.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\favicon.png",
+      "PackagePath": "staticwebassets\\image\\favicon.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\favicon_tmp18091",
+      "PackagePath": "staticwebassets\\image"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\fayoum.jpg",
+      "PackagePath": "staticwebassets\\image\\fayoum.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\01-1.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\01-1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\01.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\01.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\02-1.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\02-1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\02.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\02.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\03-1.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\03-1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\03.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\03.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\04.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\04.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\05.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\05.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\gallery\\06.jpg",
+      "PackagePath": "staticwebassets\\image\\gallery\\06.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\go.jpg",
+      "PackagePath": "staticwebassets\\image\\go.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\hotelNew.jpg",
+      "PackagePath": "staticwebassets\\image\\hotelNew.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\hotelo.jpg",
+      "PackagePath": "staticwebassets\\image\\hotelo.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\hotelone.jpg",
+      "PackagePath": "staticwebassets\\image\\hotelone.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\hurghada.png",
+      "PackagePath": "staticwebassets\\image\\hurghada.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\image-1.png",
+      "PackagePath": "staticwebassets\\image\\image-1.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\image-2.png",
+      "PackagePath": "staticwebassets\\image\\image-2.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\instagram\\Image-01.jpg",
+      "PackagePath": "staticwebassets\\image\\instagram\\Image-01.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\instagram\\Image-02.jpg",
+      "PackagePath": "staticwebassets\\image\\instagram\\Image-02.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\instagram\\Image-03.jpg",
+      "PackagePath": "staticwebassets\\image\\instagram\\Image-03.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\instagram\\Image-04.jpg",
+      "PackagePath": "staticwebassets\\image\\instagram\\Image-04.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\instagram\\Image-05.jpg",
+      "PackagePath": "staticwebassets\\image\\instagram\\Image-05.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\instagram\\Image-06.jpg",
+      "PackagePath": "staticwebassets\\image\\instagram\\Image-06.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\instagram\\Image-07.jpg",
+      "PackagePath": "staticwebassets\\image\\instagram\\Image-07.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\instagram\\Image-08.jpg",
+      "PackagePath": "staticwebassets\\image\\instagram\\Image-08.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\logo-2.png",
+      "PackagePath": "staticwebassets\\image\\logo-2.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\luxor.jpg",
+      "PackagePath": "staticwebassets\\image\\luxor.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\magic.jpg",
+      "PackagePath": "staticwebassets\\image\\magic.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\marsa.jpg",
+      "PackagePath": "staticwebassets\\image\\marsa.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\marsa2.jpg",
+      "PackagePath": "staticwebassets\\image\\marsa2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\moez.jpg",
+      "PackagePath": "staticwebassets\\image\\moez.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\msg-827975323-14933 (2).jpg",
+      "PackagePath": "staticwebassets\\image\\msg-827975323-14933 (2).jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\msg-827975323-14933.jpg",
+      "PackagePath": "staticwebassets\\image\\msg-827975323-14933.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\p.jpg",
+      "PackagePath": "staticwebassets\\image\\p.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\pa.jpg",
+      "PackagePath": "staticwebassets\\image\\pa.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\panorama.jpg",
+      "PackagePath": "staticwebassets\\image\\panorama.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\pyramids.jpg",
+      "PackagePath": "staticwebassets\\image\\pyramids.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\re.jpg",
+      "PackagePath": "staticwebassets\\image\\re.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\result.png",
+      "PackagePath": "staticwebassets\\image\\result.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\room.jpg",
+      "PackagePath": "staticwebassets\\image\\room.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\room1.jpg",
+      "PackagePath": "staticwebassets\\image\\room1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\room2.jpg",
+      "PackagePath": "staticwebassets\\image\\room2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\room3.jpg",
+      "PackagePath": "staticwebassets\\image\\room3.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\room4.jpg",
+      "PackagePath": "staticwebassets\\image\\room4.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\sant.PNG",
+      "PackagePath": "staticwebassets\\image\\sant.PNG"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\sharm.jpg",
+      "PackagePath": "staticwebassets\\image\\sharm.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\sindbad.jpg",
+      "PackagePath": "staticwebassets\\image\\sindbad.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\testtimonial-1.jpg",
+      "PackagePath": "staticwebassets\\image\\testtimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\testtimonial-2.jpg",
+      "PackagePath": "staticwebassets\\image\\testtimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\tr.jpg",
+      "PackagePath": "staticwebassets\\image\\tr.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\travel41.jpg",
+      "PackagePath": "staticwebassets\\image\\travel41.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\u.jpg",
+      "PackagePath": "staticwebassets\\image\\u.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\v.jpg",
+      "PackagePath": "staticwebassets\\image\\v.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\w.jpg",
+      "PackagePath": "staticwebassets\\image\\w.jpg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\zya.png",
+      "PackagePath": "staticwebassets\\image\\zya.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\image\\zyaa.png",
+      "PackagePath": "staticwebassets\\image\\zyaa.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\js\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\bootstrapf.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrapf.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\bootstrapl.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrapl.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\bootstraps.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstraps.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\bootstrapw.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrapw.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\js\\jquery.form.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jqueryR-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jqueryR-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jqueryf.min.js",
+      "PackagePath": "staticwebassets\\js\\jqueryf.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jqueryl.min.js",
+      "PackagePath": "staticwebassets\\js\\jqueryl.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jquerys.min.js",
+      "PackagePath": "staticwebassets\\js\\jquerys.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\jqueryw.min.js",
+      "PackagePath": "staticwebassets\\js\\jqueryw.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\js\\mail-script.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\mainR.js",
+      "PackagePath": "staticwebassets\\js\\mainR.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\mainf.js",
+      "PackagePath": "staticwebassets\\js\\mainf.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\mainl.js",
+      "PackagePath": "staticwebassets\\js\\mainl.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\mains.js",
+      "PackagePath": "staticwebassets\\js\\mains.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\mainw.js",
+      "PackagePath": "staticwebassets\\js\\mainw.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\newH.js",
+      "PackagePath": "staticwebassets\\js\\newH.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\popperf.js",
+      "PackagePath": "staticwebassets\\js\\popperf.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\popperl.js",
+      "PackagePath": "staticwebassets\\js\\popperl.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\poppers.js",
+      "PackagePath": "staticwebassets\\js\\poppers.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\popperw.js",
+      "PackagePath": "staticwebassets\\js\\popperw.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\js\\stellar.js",
+      "PackagePath": "staticwebassets\\js\\stellar.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\microsoft-signalr\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft-signalr\\signalr.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\lib\\microsoft-signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft-signalr\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\css\\_DS_Store",
+      "PackagePath": "staticwebassets\\royal-Doc\\css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\css\\main.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\css\\normalize.min.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\css\\normalize.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\royal-Doc\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\fonts\\_DS_Store",
+      "PackagePath": "staticwebassets\\royal-Doc\\fonts"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\royal-Doc\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\royal-Doc\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\royal-Doc\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\royal-Doc\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\img\\_DS_Store",
+      "PackagePath": "staticwebassets\\royal-Doc\\img"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\img\\logo.png",
+      "PackagePath": "staticwebassets\\royal-Doc\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\index.html",
+      "PackagePath": "staticwebassets\\royal-Doc\\index.html"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\js\\_DS_Store",
+      "PackagePath": "staticwebassets\\royal-Doc\\js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\js\\custom.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\_DS_Store",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shAutoloader.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shAutoloader.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushAS3.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushAS3.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushAppleScript.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushBash.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushBash.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushCSharp.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushCSharp.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushColdFusion.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushCpp.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushCpp.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushCss.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushCss.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushDelphi.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushDelphi.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushDiff.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushDiff.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushErlang.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushErlang.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushGroovy.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushGroovy.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushJScript.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushJava.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushJava.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushJavaFX.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPerl.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPerl.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPhp.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPhp.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPlain.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPlain.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPowerShell.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPython.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushPython.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushRuby.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushRuby.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushSass.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushSass.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushScala.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushScala.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushSql.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushSql.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushVb.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushVb.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shBrushXml.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shCore.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shCore.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\scripts\\shLegacy.js",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\scripts\\shLegacy.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCore.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCore.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCoreDefault.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCoreDefault.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCoreDjango.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCoreDjango.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCoreEclipse.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCoreEclipse.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCoreEmacs.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCoreEmacs.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCoreFadeToGrey.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCoreMDUltra.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCoreMDUltra.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCoreMidnight.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shCoreRDark.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shCoreRDark.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shThemeDefault.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shThemeDefault.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shThemeDjango.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shThemeDjango.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shThemeEclipse.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shThemeEclipse.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shThemeEmacs.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shThemeEmacs.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shThemeFadeToGrey.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shThemeMDUltra.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shThemeMDUltra.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shThemeMidnight.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shThemeMidnight.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\royal-Doc\\syntax-highlighter\\styles\\shThemeRDark.css",
+      "PackagePath": "staticwebassets\\royal-Doc\\syntax-highlighter\\styles\\shThemeRDark.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_accomodation.scss",
+      "PackagePath": "staticwebassets\\scss\\_accomodation.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\_banner.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\_blog.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_button.scss",
+      "PackagePath": "staticwebassets\\scss\\_button.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\_contact.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_elements.scss",
+      "PackagePath": "staticwebassets\\scss\\_elements.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\_header.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_predefine.scss",
+      "PackagePath": "staticwebassets\\scss\\_predefine.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\scss\\_testimonial.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\bootstrap-datepicker\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-datepicker\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\bootstrap-datepicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-datepicker\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\bootstrap-datepicker\\bootstrap-select.css",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-datepicker\\bootstrap-select.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\bootstrap-datepicker\\bootstrap-select.js",
+      "PackagePath": "staticwebassets\\vendors\\bootstrap-datepicker\\bootstrap-select.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendors\\imagesloaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\isotope\\isotope-min.js",
+      "PackagePath": "staticwebassets\\vendors\\isotope\\isotope-min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\lightbox\\simpleLightbox.css",
+      "PackagePath": "staticwebassets\\vendors\\lightbox\\simpleLightbox.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\lightbox\\simpleLightbox.min.js",
+      "PackagePath": "staticwebassets\\vendors\\lightbox\\simpleLightbox.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\linericon\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\vendors\\linericon\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\linericon\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\vendors\\linericon\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\linericon\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\vendors\\linericon\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\linericon\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\vendors\\linericon\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\linericon\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\vendors\\linericon\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\linericon\\style.css",
+      "PackagePath": "staticwebassets\\vendors\\linericon\\style.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\nice-select\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\vendors\\nice-select\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\nice-select\\css\\style.css",
+      "PackagePath": "staticwebassets\\vendors\\nice-select\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\nice-select\\js\\jquery.nice-select.js",
+      "PackagePath": "staticwebassets\\vendors\\nice-select\\js\\jquery.nice-select.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\nice-select\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\vendors\\nice-select\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\owl-carousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\owl-carousel\\assets\\animated.css",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\assets\\animated.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\owl-carousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\owl-carousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Interview Projects\\Royal Hotel\\EmanMvcFinaal\\EmanMvc\\mvcprojectfinal\\wwwroot\\vendors\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\vendors\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.mvcprojectfinal.props",
+      "PackagePath": "build\\mvcprojectfinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.mvcprojectfinal.props",
+      "PackagePath": "buildMultiTargeting\\mvcprojectfinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.mvcprojectfinal.props",
+      "PackagePath": "buildTransitive\\mvcprojectfinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.mvcprojectfinal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

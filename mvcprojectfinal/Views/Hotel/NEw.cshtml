@@ -1,0 +1,134 @@
+﻿@using mvcprojectfinal.VM;
+@model AddHotelVM
+@{
+    ViewData["Title"] = "NEw";
+    Layout = "_Dashbord";
+    SelectList cityList = new SelectList(ViewBag.City, "Id", "Name");
+}
+
+
+<link rel="stylesheet" href="/js/newH.js">
+
+<body style="background-image:url(/image/Ca.jpg);height:auto;margin-top:100px">
+        <form method="post" action="/Hotel/SaveNew" enctype="multipart/form-data" style="background-color:#342b1f;width:600px;border-radius:25px;padding:25px;margin-left:50px">
+            <div style="margin-top:10px">
+                <label for="name" style="font-size:20px;color:white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Name</label>
+                <input type="text" name="name" value="@Model.name" id="name" class="form form-control" />
+            </div>
+            <div style="margin-top:10px">
+                <label for="Location" style="font-size:20px;color:white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Location</label>
+                <input type="text" name="Location" value="@Model.Location" id="Location" class="form form-control" />
+            </div>
+            <div style="margin-top:10px">
+                <label for="Description" style="font-size:20px;color:white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Description</label>
+                <input type="text" name="Description" value="@Model.Description" id="Description" class="form form-control" />
+            </div>
+            <div style="margin-top:10px">
+                <label asp-for="CityID" style="font-size:20px;color:white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;float:left">City Name</label>
+                <select asp-for="CityID" class="form-control" asp-items="cityList"></select>
+                <span asp-validation-for="CityID" class="text-danger"></span>
+            </div>
+            <br/>
+        <br />
+
+        <br />
+
+        <div style="margin-top:10px">
+            <label for="Photo" style="font-size:20px;color:white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Upload Image</label>
+            <input type="file" name="Photo" value="@Model.Photo" id="Photo" class="form form-control" />
+        </div>
+            <div style="clear:both"></div>
+            <div class="form-check" style="margin-top:10px;">
+                <input id="IsOpenBuffit"
+                @Html.CheckBoxFor(m => m.Fun.IsOpenBuffit, new { @checked = "checked" })
+                <label class="form-check-label" for="IsOpenBuffit" style="font-size:20px;color:white;">
+                    OpenBuffit
+                </label>
+            </div>
+            <div class="form-check">
+                <input id="IsContaintsSwimmingPool" @Html.CheckBoxFor(m => m.Fun.IsContaintsSwimmingPool, new { @checked = "checked" })
+            <label class="form-check-label" for="IsContaintsSwimmingPool" style="font-size:20px;color:white;">
+                SwimmingPool
+            </label>
+        </div>
+        <div class="form-check">
+            <input id="IsContainsBeach" @Html.CheckBoxFor(m => m.Fun.IsContainsBeach, new { @checked = "checked" })
+            <label class="form-check-label" for="IsContainsBeach" style="font-size:20px;color:white;">
+                Beach
+            </label>
+        </div>
+        <div class="form-check">
+            <input id="IsContainsAquaBarkChecked" @Html.CheckBoxFor(m => m.Fun.IsContainsAquaBark, new { @checked = "checked" })
+            <label class="form-check-label" for="IsContainsAquaBarkChecked" style="font-size:20px;color:white;">
+                Aqua Park
+            </label>
+        </div>
+        <div class="form-check">
+            <input id="IsContainsDescoChecked" @Html.CheckBoxFor(m => m.Fun.IsContainsDesco, new { @checked = "checked" })
+            <label class="form-check-label" for="IsContainsDescoChecked" style="font-size:20px;color:white;">
+                Desco
+            </label>
+        </div>
+        <div class="form-check">
+            <input id="IsHavingParking" @Html.CheckBoxFor(m => m.Fun.IsHavingParking, new { @checked = "checked" })
+            <label class="form-check-label" for="IsHavingParking" style="font-size:20px;color:white;">
+                Parking
+            </label>
+        </div>
+        <div class="form-check">
+            <input id="IsHavingKidsArea" @Html.CheckBoxFor(m => m.Fun.IsHavingKidsArea, new { @checked = "checked" })
+            <label class="form-check-label" for="IsHavingKidsArea" style="font-size:20px;color:white;">
+                Kids Area
+            </label>
+        </div>
+        <div class="form-check">
+            <input id="IsHavingElevator" @Html.CheckBoxFor(m => m.Fun.IsHavingElevator, new { @checked = "checked" })
+            <label class="form-check-label" for="IsHavingElevator" style="font-size:20px;color:white;">
+                Elevator
+            </label>
+        </div>
+        <label class="form-check-label" for="Stars" style="float:left;font-size:20px;color:white;margin-left:-30px">
+            Stars :
+        </label>
+        </div>
+        <div class="form-check" style="float:left;margin-left:10px;font-size:20px;color:white;">
+            <input id="one"
+            @Html.RadioButtonFor(model => model.Fun.Stars, "1")
+            <label class="form-check-label" for="one">
+                One
+            </label>
+        </div>
+        <div class="form-check" style="float:left;margin-left:10px;font-size:20px;color:white;">
+            <input id="Two"
+            @Html.RadioButtonFor(model => model.Fun.Stars, "2")
+            <label class="form-check-label" for="Two">
+                Two
+            </label>
+        </div>
+        <div class="form-check" style="float:left;margin-left:10px;font-size:20px;color:white;">
+            <input id="Three"
+            @Html.RadioButtonFor(model => model.Fun.Stars, "3")
+            <label class="form-check-label" for="Three">
+                Three
+            </label>
+        </div>
+        <div class="form-check" style="float:left;margin-left:10px;font-size:20px;color:white;">
+            <input id="Four"
+            @Html.RadioButtonFor(model => model.Fun.Stars, "4")
+            <label class="form-check-label" for="Four">
+                Four
+            </label>
+        </div>
+        <div class="form-check" style="float:left;margin-left:10px;font-size:20px;color:white;">
+            <input id="Five"
+            @Html.RadioButtonFor(model => model.Fun.Stars, "5")
+            <label class="form-check-label" for="Five">
+                Five
+            </label>
+        </div>
+        <input type="submit" value="Add" style="background-color:#c79e70;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid #342b1f;color:white ;font-size:20px;cursor:pointer" />
+    </form>
+    <button style="background-color:#342b1f;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid #342b1f;color:white">
+        <a href="/Hotel/index" style="color:white;font-size:20px">Back</a>
+    </button>
+</body>

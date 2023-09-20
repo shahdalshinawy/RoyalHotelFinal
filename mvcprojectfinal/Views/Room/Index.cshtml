@@ -1,0 +1,141 @@
+﻿@model List<Room>
+@{
+    ViewData["Title"] = "Index";
+    SelectList hotelList = new SelectList(ViewBag.Hotel, "id", "name");
+}
+@*<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Room Number</th>
+            <th scope="col">type</th>
+            <th scope="col">View</th>
+            <th scope="col">price</th>
+            <th scope="col">Hotel ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>@item.ID</td>
+                <td>
+                   
+                        <h4 class="card-title">@item.Type</h4>
+                 
+                </td>
+                 <td>
+                   
+                        <h4 class="card-title">@item.View</h4>
+                 
+                </td>
+                <td>
+
+                    <h4 class="card-title">@item.price</h4>
+
+                </td>
+                <td>
+
+                    <h4 class="card-title">
+                        @foreach (var items in ViewData["Hotel"] as IEnumerable<mvcprojectfinal.Models.Hotels>)
+                        {
+                            if (item.HotelId == items.id)
+                            {
+                        <td>@items.name</td>
+                            }
+                        }
+                     
+
+                </h4>
+
+                </td>
+               
+               
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Room/NEW" class="btn btn-dark mt-15">Add New</a>
+
+
+*@
+
+<link rel="stylesheet" href="/css/tableboot.css">
+<link rel="stylesheet" href="/css/tableHo.css">
+<body style="background-image:url(/image/room.jpg);height:max-content;margin:100px 0px 0px 110px">
+    <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+            <div class="panel" style="background-color:#97726a;border: 3px solid white;border-radius:25px;">
+                <div class="panel-body table-responsive" >
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Room Number</th>
+                                <th scope="col">type</th>
+                                <th scope="col">View</th>
+                                <th scope="col">price</th>
+                                <th scope="col">Hotel Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+
+                                <tr>
+                                    <td>@item.ID</td>
+                                    <td>
+
+                                        <h4 class="card-title">@item.Type</h4>
+
+                                    </td>
+                                    <td>
+
+                                        <h4 class="card-title">@item.View</h4>
+
+                                    </td>
+                                    <td>
+
+                                        <h4 class="card-title">@item.price</h4>
+
+                                    </td>
+                                            @foreach (var items in ViewData["Hotel"] as IEnumerable<mvcprojectfinal.Models.Hotels>)
+                                            {
+                                                if (item.HotelId == items.id)
+                                                {
+                                            <td>@items.name</td>
+                                                }
+                                            }
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                @*                    <div class="panel-footer">
+                <div class="row">
+                <div class="col col-sm-6 col-xs-6">showing <b>5</b> out of <b>25</b> entries</div>
+                <div class="col-sm-6 col-xs-6">
+                <ul class="pagination hidden-xs pull-right">
+                <li><a href="#"><</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">></a></li>
+                </ul>
+                <ul class="pagination visible-xs pull-right">
+                <li><a href="#"><</a></li>
+                <li><a href="#">></a></li>
+                </ul>
+                </div>
+                </div>
+                </div>*@
+            </div>
+        </div>
+    </div>
+</body>
+
+<button style="background-color:black;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid white;color:white">
+    <a href="/Hotel/index" style="color:white;font-size:20px">Back</a>
+</button>

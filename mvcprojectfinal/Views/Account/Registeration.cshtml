@@ -1,0 +1,144 @@
+﻿@*@model mvcprojectfinal.VM.RegistrationVM
+
+@{
+    ViewData["Title"] = "Registeration";
+    Layout = "LoginRegisterLayout";
+}
+
+<h1>Registeration</h1>
+
+<h4>RegistrationVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Registeration">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" style="width:200px;" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserEmail" class="control-label"></label>
+                <input asp-for="UserEmail" class="form-control" style="width:200px;" />
+                <span asp-validation-for="UserEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <input asp-for="Gender" class="form-control" style="width:200px;" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="age" class="control-label"></label>
+                <input asp-for="age" class="form-control" style="width:200px;" />
+                <span asp-validation-for="age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SSN" class="control-label"></label>
+                <input asp-for="SSN" class="form-control" style="width:200px;" />
+                <span asp-validation-for="SSN" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" style="width:200px;" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control" style="width:200px;" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <input type="submit" asp-action="index" asp-controller="MainPage" value="Register" class="btn btn-primary border-success" />
+                   }
+                else
+                {
+                    <input type="submit" asp-action="Registeration" asp-controller="Account" value="Register" class="btn btn-primary border-success" />
+
+                }
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    Do you already have an account? <a asp-action="Login">Login</a>
+</div>
+
+*@
+@model mvcprojectfinal.VM.RegistrationVM
+
+@{
+    ViewData["Title"] = "Registeration";
+    Layout = "RoyalLayout";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RegistrationForm_v10 by Colorlib</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINEARICONS -->
+    <link rel="stylesheet" href="fonts/linearicons/style.css">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="/css/styleR.css">
+</head>
+
+<body >
+    <div class="wrapper" style="background-color:#c79e70;">
+        <br />
+
+        <div class="inner">
+            <form asp-action="Registeration" style="border-radius:15px;border:5px solid #342b1f;padding:20px">
+                <h3>New Account?</h3>
+                <div class="form-holder">
+                    <span class="lnr lnr-user" asp-for="Name" style="margin-left:8px"></span>
+                    <input type="text" class="form-control" asp-for="Name" placeholder="Username" style="padding-left:25px">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-envelope" asp-for="UserEmail" style="margin-left:8px"></span>
+                    <input type="email" asp-for="UserEmail" class="form-control" placeholder="Email" style="padding-left:25px">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-envelope" asp-for="Gender" style="margin-left:8px"></span>
+                    <input type="text" asp-for="Gender" class="form-control" placeholder="Gender" style="padding-left:25px">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-envelope" asp-for="age" style="margin-left:8px"></span>
+                    <input asp-for="age" class="form-control" placeholder="Age" style="padding-left:25px">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-lock" asp-for="Password" style="margin-left:8px"></span>
+                    <input type="password" asp-for="Password" class="form-control" placeholder="Password" style="padding-left:25px">
+                </div>
+                <div class="form-holder">
+                    <span class="lnr lnr-lock" asp-for="ConfirmPassword" style="margin-left:8px"></span>
+                    <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="ConfirmPassword" style="padding-left:25px">
+                </div>
+                <div class="form-holder">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <input type="submit" asp-action="Login" asp-controller="Account" value="Register" class="btn btn-primary border-success" />
+                    }
+                    else
+                    {
+                        <button style="background-color:#342b1f;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid #342b1f;color:white" asp-action="Registeration" asp-controller="Account">
+                            Rgister
+                        </button>
+
+                    }
+            </div>
+                <div>
+                    Do you already have an account? <a asp-action="Login">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/jqueryR-3.3.1.min.js"></script>
+    <script src="/js/mainR.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

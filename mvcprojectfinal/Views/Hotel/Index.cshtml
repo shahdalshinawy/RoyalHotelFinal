@@ -1,0 +1,139 @@
+﻿@model List<Hotels>
+@{
+    ViewData["Title"] = "index";
+    Layout = "_Dashbord";
+}
+
+@*<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Deatlis</th>
+            <th scope="col">Add</th>
+            <th scope="col">Delete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>@item.id</td>
+                <td>
+                    <a href="/Hotel/Deatils/@item.id">
+                        <h4 class="card-title">@item.name</h4>
+                    </a>
+                </td>
+                <td><a href="/Hotel/Edit/@item.id">Edit</a></td>
+                <td><a href="/Hotel/Deatils/@item.id">Deatils</a></td>
+               
+                <td>
+                    <a>
+                    </a>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id },
+                new { onclick = "return confirm('Are sure wants to delete?');" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Hotel/NEW" class="btn btn-dark mt-15">Add New</a>
+<td><a href="/Room/NEw" class="btn btn-dark mt-15">AddRoom</a></td>
+
+*@
+<link rel="stylesheet" href="/css/tableboot.css">
+<link rel="stylesheet" href="/css/tableHo.css">
+ <body style="background-image:url(/image/Ca.jpg);height:max-content;margin:100px 0px 0px 110px">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+            <div class="panel" style="background-color: #342b1f;">
+ @*                   <div class="panel-heading">
+                        <div class="row">
+                            <div class="col col-sm-3 col-xs-12">
+                                <h4 class="title">Data <span>List</span></h4>
+                            </div>
+                            <div class="col-sm-9 col-xs-12 text-right">
+                                <div class="btn_group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <button class="btn btn-default" title="Reload"><i class="fa fa-sync-alt"></i></button>
+                                    <button class="btn btn-default" title="Pdf"><i class="fa fa-file-pdf"></i></button>
+                                    <button class="btn btn-default" title="Excel"><i class="fas fa-file-excel"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>*@
+                    <div class="panel-body table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Details</th>
+                                <th scope="col">Edit</th>
+                                <th scope="col">Delete</th>
+                                <th scope="col">Add Room</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+
+                                <tr>
+                                    <td >@item.id</td>
+                                    <td style="color:white">
+                                        <a href="/Hotel/Deatils/@item.id">
+                                            <h4 class="card-title" style="color:white">@item.name</h4>
+                                        </a>
+                                    </td>
+
+                                    <td><a href="/Hotel/Deatils/@item.id">Details</a></td>
+                                    <td>
+                                        <a href="/Hotel/Edit/@item.id" style="color:white;font-size:20px" data-tip="edit"><i class="fa fa-edit"></i></a>
+                                    </td>
+                                    <td >
+                                        <a href="/Hotel/Delete/@item.id" style="color:white;font-size:20px" data-tip="delete"><i class="fa fa-trash"></i></a>
+                                        @Html.ActionLink("Delete","Delete",new { id = item.id },
+                                    new { onclick = "return confirm('Are sure wants to delete?');" })
+                                    </td>
+                                    <td><a href="/Room/NEw" class="btn mt-15" style="background-color:#c79e70">Room</a></td>
+@*                                    <td>
+                                        <ul class="action-list">
+                                            <li><a href="#" data-tip="delete"><i class="fa fa-trash"></i></a></li>
+                                        </ul>
+                                    </td>*@
+                                </tr>
+                                }
+                               </tbody>
+                        </table>
+                    </div>
+@*                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col col-sm-6 col-xs-6">showing <b>5</b> out of <b>25</b> entries</div>
+                            <div class="col-sm-6 col-xs-6">
+                                <ul class="pagination hidden-xs pull-right">
+                                    <li><a href="#"><</a></li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#">></a></li>
+                                </ul>
+                                <ul class="pagination visible-xs pull-right">
+                                    <li><a href="#"><</a></li>
+                                    <li><a href="#">></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+            </div>
+        </div>
+ </body>
+
+<button style="background-color:#342b1f;margin-top:20px;width:150px;height:60px;border-radius:25px;border:3px solid #342b1f">
+    <a href="/Hotel/NEW" <i class="fa fa-plus-circle" style="font-size:20px"> Add New</i></a>
+</button>

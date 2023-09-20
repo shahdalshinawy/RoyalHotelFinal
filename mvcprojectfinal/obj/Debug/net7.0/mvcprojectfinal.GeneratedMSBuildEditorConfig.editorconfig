@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mvcprojectfinal
+build_property.RootNamespace = mvcprojectfinal
+build_property.ProjectDir = D:\Interview Projects\Royal Hotel\EmanMvcFinaal\EmanMvc\mvcprojectfinal\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Interview Projects\Royal Hotel\EmanMvcFinaal\EmanMvc\mvcprojectfinal
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Account/Registeration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlcmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/All/AllInCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsXEFsbEluQ2l0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/All/f.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsXGYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/All/Hotelss.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsXEhvdGVsc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/All/ReservationHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsXFJlc2VydmF0aW9uSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/All/specificHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsXHNwZWNpZmljSG90ZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/All/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsXFRoYW5rWW91LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Hotel/Deatils.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRGVhdGlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Hotel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Hotel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Hotel/NEw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcTkV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/MainPage/getAllHotelsByCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcZ2V0QWxsSG90ZWxzQnlDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/MainPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Role/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Room/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Room/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/LoginRegisterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luUmVnaXN0ZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE15TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/RoyalLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJveWFsTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/_Dashbord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/_filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9maWx0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/_par.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9wYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Interview Projects/Royal Hotel/EmanMvcFinaal/EmanMvc/mvcprojectfinal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5ubdyb1kgf

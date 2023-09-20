@@ -1,0 +1,22 @@
+﻿@model List<City>
+@{
+
+    Layout = "RoyalLayout";
+
+}
+@*@if(User.Identity.IsAuthenticated)
+{
+    <h4>Welcome @User.Identity.Name</h4>
+}*@
+<section class="accomodation_area section_gap booking_table d_flex align-items-center" style="background-color:#efdfdb">
+    <div class="container">
+        <div class="section_title text-center">
+            <div class="row mb_30">
+                @foreach (City c in Model)
+                {
+                 @Html.Partial("_par",c);
+                }
+            </div>
+        </div>
+    </div>
+</section>

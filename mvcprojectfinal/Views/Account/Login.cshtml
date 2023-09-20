@@ -1,0 +1,146 @@
+﻿@*@model mvcprojectfinal.VM.LoginVM
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "LoginRegisterLayout";
+}
+
+<h1>Login</h1>
+
+<h4>LoginVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" style="width:200px;"/>
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" style="width:200px;" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="rememberMe" /> @Html.DisplayNameFor(model => model.rememberMe)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary border-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    Make a new account?
+        <a asp-action="Registeration">Register</a>
+        
+</div>
+
+*@
+@model mvcprojectfinal.VM.LoginVM
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "RoyalLayout";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/stylew.css">
+
+</head>
+<body>
+    <section class="ftco-section" style="background-color:#c79e70">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="login-wrap p-0">
+                    <h3 class="mb-4 text-center">Have an account?</h3>
+                    <form asp-action="Login" class="signin-form">
+                        <div class="form-group">
+                            <input asp-for="Username" type="text" class="form-control" placeholder="Username" required>
+                        </div>
+                        <div class="form-group">
+                            <input id="password-field" type="password" asp-for="Password" class="form-control" placeholder="Password" required>
+                            <span toggle="#password-field" asp-for="Password" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control btn" style="background-color:#342b1f">Sign In</button>
+                        </div>
+                        <div class="form-group d-md-flex">
+                            <div class="w-50">
+                                <label class="checkbox-wrap checkbox-primary" style="color:#342b1f">
+                                    <input type="checkbox" asp-for="rememberMe" > @Html.DisplayNameFor(model => model.rememberMe)
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            
+                        </div>
+                        
+                    </form>
+                  <div>
+    Make a new account?
+                        <a style="color:#342b1f" asp-action="Registeration">Register</a>
+        
+</div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="/js/jqueryw.min.js"></script>
+    <script src="/js/popperw.js"></script>
+    <script src="/js/bootstrapw.min.js"></script>
+    <script src="/js/mainw.js"></script>
+
+</body>
+</html>
+
+
+
+
+@*
+<h4>LoginVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" style="width:200px;"/>
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" style="width:200px;" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="rememberMe" /> @Html.DisplayNameFor(model => model.rememberMe)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary border-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>*@

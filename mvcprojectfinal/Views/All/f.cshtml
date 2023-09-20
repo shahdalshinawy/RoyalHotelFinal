@@ -1,0 +1,210 @@
+﻿@model mvcprojectfinal.VM.FilterVm
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<head>
+    <link rel="stylesheet" href="/css/fiter.css">
+</head>
+@*
+<body>
+    <nav>
+        <div class="p-3" style="background-color:white;border:5px solid #342b1f;border-radius:25px;padding:20px">
+            <h1><a asp-action="index" asp-controller="mainpage" class="logo" style="color:black">Royal Booking</a></h1>
+
+            <form asp-action="filter">
+
+                <input type="hidden" asp-for="cityid" value="@ViewBag.ff" />
+                <div class="form-inline border rounded p-sm-2 my-2">
+                    @Html.CheckBoxFor(m => m.IsOpenBuffit, new { @checked = "checked" })
+                    <label class="form-check-label" for="IsOpenBuffit">
+                        IsOpenBuffit
+                    </label>
+                </div>
+
+                <div class="form-inline border rounded p-sm-2 my-2">
+                    @Html.CheckBoxFor(m => m.IsContaintsSwimmingPool, new { @checked = "checked" })
+
+                    <label class="form-check-label" for="IsContaintsSwimmingPool">
+                        IsContaintsSwimmingPool
+                    </label>
+                </div>
+                <div class="form-inline border rounded p-sm-2 my-2">
+                    @Html.CheckBoxFor(m => m.IsContainsBeach, new { @checked = "checked" })
+                    <label class="form-check-label" for="IsContainsBeach">
+                        IsContainsBeach
+                    </label>
+                </div>
+                <div class="form-inline border rounded p-sm-2 my-2">
+                    @Html.CheckBoxFor(m => m.IsContainsAquaBark, new { @checked = "checked" })
+                    <label class="form-check-label" for="IsContainsAquaBarkChecked">
+                        IsContainsAquaBark
+                    </label>
+                </div>
+                <div class="form-inline border rounded p-sm-2 my-2">
+                    @Html.CheckBoxFor(m => m.IsContainsDesco, new { @checked = "checked" })
+                    <label class="form-check-label" for="IsContainsDescoChecked">
+                        IsContainsDesco
+                    </label>
+                </div>
+                <div class="form-inline border rounded p-sm-2 my-2">
+                    @Html.CheckBoxFor(m => m.IsHavingParking, new { @checked = "checked" })
+                    <label class="form-check-label" for="IsHavingParking">
+                        IsHavingParking
+                    </label>
+                </div>
+                <div class="form-inline border rounded p-sm-2 my-2">
+                    @Html.CheckBoxFor(m => m.IsHavingKidsArea, new { @checked = "checked" })
+                    <label class="form-check-label" for="IsHavingKidsArea">
+                        IsHavingKidsArea
+                    </label>
+                </div>
+                <div class="form-inline border rounded p-sm-2 my-2">
+                    @Html.CheckBoxFor(m => m.IsHavingElevator, new { @checked = "checked" })
+                    <label class="form-check-label" for="IsHavingElevator">
+                        IsHavingElevator
+                    </label>
+                </div>
+
+                <label class="form-check-label" for="Stars" style="float:left;">
+                    Stars :
+                </label>
+                <div class="form-inline border rounded p-sm-2 ">
+                    <div class="form-check" style="float:left;margin-left:20px;">
+                        @Html.RadioButtonFor(model => model.Stars, "1")
+                        <label class="form-check-label" for="Stars">
+                            One
+                        </label>
+                    </div>
+                    <div class="form-check" style="float:left;margin-left:20px;">
+                        @Html.RadioButtonFor(model => model.Stars, "2")
+                        <label class="form-check-label" for="Two">
+                            Two
+                        </label>
+                    </div>
+                    <div class="form-check" style="float:left;margin-left:20px;">
+                        @Html.RadioButtonFor(model => model.Stars, "3")
+                        <label class="form-check-label" for="Three">
+                            Three
+                        </label>
+                    </div>
+                    <div class="form-check" style="float:left;margin-left:20px;">
+                        @Html.RadioButtonFor(model => model.Stars, "4")
+                        <label class="form-check-label" for="Four">
+                            Four
+                        </label>
+                    </div>
+                    <div class="form-check" style="float:left;margin-left:20px;">
+                        @Html.RadioButtonFor(model => model.Stars, "5")
+                        <label class="form-check-label" for="Five">
+                            Five
+                        </label>
+                    </div>
+                </div>
+
+                <input type="submit" value="Apply filter" class="btn btn-success" />
+            </form>
+        </div>
+    </nav>
+</body>
+
+<div>
+    <a asp-action="filter">Cancel</a>
+</div>*@
+<body style="background-image:url(/image/Ca.jpg);height:auto;margin-top:100px">
+    <form asp-action="filter" style="background-color:#c79e70;width:550px;padding:20px;margin-left:50px;border:3px solid #342b1f;border-radius:25px">
+        <input type="hidden" asp-for="cityid" value="@ViewBag.ff" />
+        <h2 style="color:white">Advanced Search</h2>
+        <div class="form-inline border rounded p-sm-2 my-2">
+            @Html.CheckBoxFor(m => m.IsOpenBuffit, new { @checked = "checked" })
+            <label class="form-check-label" for="IsOpenBuffit" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                Open Buffit
+            </label>
+        </div>
+
+        <div class="form-inline border rounded p-sm-2 my-2">
+            @Html.CheckBoxFor(m => m.IsContaintsSwimmingPool, new { @checked = "checked" })
+
+            <label class="form-check-label" for="IsContaintsSwimmingPool" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                Swimming Pool
+            </label>
+        </div>
+        <div class="form-inline border rounded p-sm-2 my-2">
+            @Html.CheckBoxFor(m => m.IsContainsBeach, new { @checked = "checked" })
+            <label class="form-check-label" for="IsContainsBeach" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                Beach
+            </label>
+        </div>
+        <div class="form-inline border rounded p-sm-2 my-2">
+            @Html.CheckBoxFor(m => m.IsContainsAquaBark, new { @checked = "checked" })
+            <label class="form-check-label" for="IsContainsAquaBarkChecked" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                Aqua Park
+            </label>
+        </div>
+        <div class="form-inline border rounded p-sm-2 my-2">
+            @Html.CheckBoxFor(m => m.IsContainsDesco, new { @checked = "checked" })
+            <label class="form-check-label" for="IsContainsDescoChecked" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                Desco
+            </label>
+        </div>
+        <div class="form-inline border rounded p-sm-2 my-2">
+            @Html.CheckBoxFor(m => m.IsHavingParking, new { @checked = "checked" })
+            <label class="form-check-label" for="IsHavingParking" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                Parking
+            </label>
+        </div>
+        <div class="form-inline border rounded p-sm-2 my-2">
+            @Html.CheckBoxFor(m => m.IsHavingKidsArea, new { @checked = "checked" })
+            <label class="form-check-label" for="IsHavingKidsArea" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                Kids Area
+            </label>
+        </div>
+        <div class="form-inline border rounded p-sm-2 my-2">
+            @Html.CheckBoxFor(m => m.IsHavingElevator, new { @checked = "checked" })
+            <label class="form-check-label" for="IsHavingElevator" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+               Elevator
+            </label>
+        </div>
+
+        <label class="form-check-label" for="Stars" style="float:left;margin-left:-12px;margin-right:3px;margin-top:5px;color:white;font-size:17px;font-weight:bold">
+            Stars  
+        </label>
+        <div class="form-inline border rounded p-sm-2 ">
+            <div class="form-check" style="float:left;margin-left:20px;">
+                @Html.RadioButtonFor(model => model.Stars, "1")
+                <label class="form-check-label" for="Stars" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                    One
+                </label>
+            </div>
+            <div class="form-check" style="float:left;margin-left:20px;">
+                @Html.RadioButtonFor(model => model.Stars, "2")
+                <label class="form-check-label" for="Two" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                    Two
+                </label>
+            </div>
+            <div class="form-check" style="float:left;margin-left:20px;">
+                @Html.RadioButtonFor(model => model.Stars, "3")
+                <label class="form-check-label" for="Three" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                    Three
+                </label>
+            </div>
+            <div class="form-check" style="float:left;margin-left:20px;">
+                @Html.RadioButtonFor(model => model.Stars, "4")
+                <label class="form-check-label" for="Four" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                    Four
+                </label>
+            </div>
+            <div class="form-check" style="float:left;margin-left:20px;">
+                @Html.RadioButtonFor(model => model.Stars, "5")
+                <label class="form-check-label" for="Five" style="color:white;font-size:17px;font-weight:bold;margin-left:3px">
+                    Five
+                </label>
+            </div>
+        </div>
+
+
+            <input type="submit" value="Apply filter" style="background-color:#342b1f;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid #342b1f;color:white;cursor:pointer"/>
+    </form>
+    <button style="background-color:#342b1f;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid #342b1f;color:white">
+        <a href="/All/Hotelss/@ViewBag.ff" style="color:white;font-size:20px">Back</a>
+    </button>
+</body>

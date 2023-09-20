@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewData["Title"] = "Deatils";
+}
+
+
+@model Hotels
+@{
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<body style="background-image:url(/image/hotelo.jpg);margin:100px 50px 0px 50px">
+    <div class="row">
+           <div class="col-12">
+              <div class="card-body" style="background-color:white;border-radius:25px">
+                @for (int i = 0; i < Model.images.Count; i++)
+                {
+                    <div style="float:right" >
+                        <img src="/image/@(Model.images[i].source)" class="card-img w-200 h-100" alt="image" style="height:200px;width:200px;margin: 20px 0px 20px 20px">
+
+                    </div>
+                }
+                <h2 class="Desc" style="color:#735F32;font-style:italic;">
+                    Name :
+                    <p style="display:inline;font-size:20px ;font-style:normal;color:black;">@Model.name</p>
+                 </h2>
+                <h2 class="Desc" style="color:#735F32;font-style:italic;">
+                    Description :
+                    <p style="display:inline;font-size:20px ;font-style:normal;color:black;">@Model.Description</p>
+                </h2>
+                <h2 class="Desc" style="color:#735F32;font-style:italic;">
+                    City :
+                    <p style="display:inline;font-size:20px ;font-style:normal;color:black;">@Model.City.Name</p>
+                </h2>
+                <h2 class="Desc" style="color:#735F32;font-style:italic;">
+                    Hotel Stars :
+                    <p style="display:inline;font-size:25px ;font-style:normal;color:black;">@Model.Fun.Stars</p>
+                </h2>
+                <h2 class="Desc" style="color:#735F32;font-style:italic;">
+                    Entertainment :
+                    <ul style="font-size:20px;color:black">
+                        @if(@Model.Fun.IsHavingParking){
+                        <li>Parking :Avalaibe</li>
+                        }
+                        @if (@Model.Fun.IsHavingElevator)
+                        {
+                            <li>Elevator :Avalaibe</li>
+                        }
+                        @if (@Model.Fun.IsContainsAquaBark)
+                        {
+                            <li>Aqua Park :Avalaibe</li>
+                        }
+                        @if (@Model.Fun.IsContainsBeach)
+                        {
+                            <li>Beach:Avalaibe</li>
+                        }
+                        @if (@Model.Fun.IsContainsDesco)
+                        {
+                            <li>Desco:Avalaibe</li>
+                        }
+                        @if (@Model.Fun.IsOpenBuffit)
+                        {
+                            <li>Open Buffit :Avalaibe</li>
+                        }
+                        @if (@Model.Fun.IsContaintsSwimmingPool)
+                        {
+                            <li>Swimming Pool :Avalaibe</li>
+                        }
+                    </ul>
+                </h2>
+              
+              </div>
+            <button style="background-color:#342b1f;margin-top:10px;width:150px;height:60px;border-radius:25px;border:3px solid #342b1f;color:white">
+                <a href="/Hotel/index" style="color:white;font-size:20px">Back</a>
+            </button>
+           </div>
+</body>
+
+
+
+
+

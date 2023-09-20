@@ -1,0 +1,171 @@
+﻿@model List<Hotels>
+@{
+	ViewData["Title"] = "Hotelss";
+	Layout = "RoyalLayout";
+}
+
+@*<h1>Hotelss</h1>
+
+<ul>
+</ul>*@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Sidebar 06</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/styles.css">
+
+
+
+	<link rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+	</script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	</script>
+</head>
+<body style="background-color:#dfceac;margin-top:95px">
+@*	<div class="card " id="newHo" style="background-color:#F7C8E0">
+		<div class="card-body" style="font-family:Bahnschrift;font-size:22px;">
+			<p class="card-text" style="color:darkblue">New Hotel !!</p>
+		</div>
+	</div>*@
+	<div class="row">
+		@*<div class="col-3" style="margin:20px 0px 0px 35px;">
+			@Html.Partial("_filter")
+		</div>*@
+		@*<i class="fa-solid fa-filter"></i>
+			<i class="fa-duotone fa-filter-list" style="color:darkolivegreen"></i>*@
+@*		<a href="/all/f/@ViewBag.Id" <i class="fa fa-hourglass-1"></i> >Filter</a>
+*@
+		<button style="background-color:#9b733c;margin-top:130px;margin-left:50px;width:150px;height:60px;border-radius:25px;border:3px solid white">
+			<a href="/all/f/@ViewBag.Id"><i class="fa fa-sliders" style="font-size:20px;color:white"> Filter</i></a>
+		</button>
+		
+		<!-- Page Content  -->
+		<div class="col-7" id="AllH">
+
+			<div class="container">
+
+				<div class="row" style="margin:20px 0px 0px 0px">
+
+					@*@foreach (Hotels hotel in Model)
+					{
+						<div class="col-12" style=" border:3px solid red">
+							<div class="col-5" >
+								@for (int i = 0; i < hotel.images.Count; i++)
+								{
+									<div class="">
+										<img src="/image/@(@hotel.images[i].source)" class="card-img w-50 h-50" alt="@hotel.name" style="height:300px;width:300px;margin: 20px 0px 20px 20px">
+
+									</div>
+								}
+
+							</div>
+							<div class="col-5" style="float:right">
+								<div class="card-body">
+									<h5 class="card-title" style="font-size: 30px;color:gray">@hotel.name</h5>
+									<p class="card-text">Location: @hotel.Location</p>
+									<p class="card-text">Description: @hotel.Description</p>
+									<div>
+										<a href="/All/specificHotel/@hotel.id" class="btn btn-primary w-25">Show</a>
+									</div>
+								</div>
+							</div>
+					    </div>
+					}*@
+					@foreach (Hotels hotel in Model)
+					{
+						<div class="card " style="width: 700px;margin:auto;margin-bottom:20px;border-radius:15px;border:4px solid #9b733c">
+								<div class="row g-0">
+									<div class="col-md-4">
+@*										@for (int i = 0; i < hotel.images.Count; i++)
+										{*@
+											<div class="">
+												<img src="/image/@(@hotel.images[0].source)" class="card-img w-60 h-60" alt="@hotel.name" style="margin: 20px 0px 20px 20px;border-radius:25px">
+
+											</div>
+										@*}*@
+									</div>
+									<div class="col-md-8">
+										<div class="card-body">
+											<h5 class="card-title" style="font-size: 30px;color:black">@hotel.name</h5>
+										<p class="card-text" style="font-size: 16px;color:#99875f">Location: @hotel.Location</p>
+										<p class="card-text" style="font-size: 16px;color:#99875f">Description: @hotel.Description</p>
+										<button style="background-color:#9b733c;margin-top:10px;width:120px;height:40px;border-radius:25px;border:3px solid #9b733c;color:white">
+											<a href="/All/specificHotel/@hotel.id" style="color:white;font-size:20px">Show</a>
+										</button>
+										</div>
+									</div>
+								</div>
+						</div>
+						<br />
+						<br />
+
+					}
+
+			</div>
+		</div>
+	</div>
+				@*@foreach (Hotels hotels in Model)
+				{
+
+				<div class="row">
+					
+						<div > class="accomodation_item text-center">
+							<div class="hotel_img ">
+									@for(int i=0;i<hotels.images.Count;i++)
+									{
+										<div class=""> 
+											<img src="/image/@(@hotels.images[i].source)" class="card-img" alt="@hotels.name" style="height:300px;width:300px;margin: 20px 0px 20px 20px">
+
+										</div>
+									}
+							</div>
+							<div class="">	
+								<div >
+									<div class="card-body">
+										<h5 class="card-title" style="font-size: 30px;color:gray">@hotels.name</h5>
+										<p class="card-text">Location: @hotels.Location</p>
+										<p class="card-text">Description: @hotels.Description</p>
+											<div>
+												<a href="/All/specificHotel/@hotels.id" class="btn btn-primary w-25">Show</a>
+											</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						
+				</div>
+				
+				}
+			*@
+
+@section Scripts{
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.4/signalr.min.js" integrity="sha512-ulHhwQdGlX96gNSRsakG06STFdaQBUTbCX4KqLcYI428blEsttMkg2C3n2KtiYNDwnETBHXDg9ZAtvkfMHTYOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script>
+		var hub =
+			new signalR.HubConnectionBuilder().withUrl("/HotelHub").build();
+		hub.start().then(function () {
+			console.log("Connection Success");
+		});
+		hub.on("NewHotelAdd", function (productObj, productObje) {
+
+			$("#newHo").append("Name : " + productObj, "<br/> Description : " + productObje);
+		});
+
+	</script>
+	}
+</body>
+</html>
+

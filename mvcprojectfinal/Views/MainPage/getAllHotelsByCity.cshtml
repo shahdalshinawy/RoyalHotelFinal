@@ -1,0 +1,20 @@
+﻿@model List<Hotels>
+@{
+    ViewData["Title"] = "GeyCities";
+}
+<h1>Cancelled</h1>
+
+<table class="table table-bordered table-hover">
+    
+    @foreach (var item in @Model)
+    {   
+        <tr>
+            <td>@item.name</td>
+            <td>@item.Location</td>
+            <td>@item.Description</td>
+           
+
+        </tr>
+    }
+
+</table>
